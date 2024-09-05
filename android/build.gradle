@@ -34,6 +34,12 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    namespace 'com.pdftron.pdftronflutter'
 }
 
 dependencies {
